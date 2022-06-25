@@ -1,0 +1,11 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "nsapi.default-wifi-ssid": "\"_WLAN-NAME_\"",
+            "nsapi.default-wifi-password": "\"_WLAN-PASS_\"",
+            "nsapi.default-wifi-security": "WPA_WPA2",
+            "esp8266.provide-default": false
+        }
+    }
+}
